@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		AD26B9FC24224891001B9DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B9FB24224891001B9DFB /* AppDelegate.swift */; };
-		AD26B9FE24224891001B9DFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B9FD24224891001B9DFB /* SceneDelegate.swift */; };
-		AD26BA0024224891001B9DFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B9FF24224891001B9DFB /* ViewController.swift */; };
+		AD26BA0024224891001B9DFB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26B9FF24224891001B9DFB /* FirstViewController.swift */; };
 		AD26BA0324224891001B9DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD26BA0124224891001B9DFB /* Main.storyboard */; };
 		AD26BA0524224894001B9DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD26BA0424224894001B9DFB /* Assets.xcassets */; };
 		AD26BA0824224894001B9DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD26BA0624224894001B9DFB /* LaunchScreen.storyboard */; };
+		AD26BA1024224DEE001B9DFB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26BA0F24224DEE001B9DFB /* SecondViewController.swift */; };
+		AD26BA1224224DFE001B9DFB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26BA1124224DFE001B9DFB /* ThirdViewController.swift */; };
+		AD26BA1424224E09001B9DFB /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26BA1324224E09001B9DFB /* ModalViewController.swift */; };
+		AD26BA162422506D001B9DFB /* UserDefaultsRepositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD26BA152422506D001B9DFB /* UserDefaultsRepositories.swift */; };
+		AD26BA18242262E8001B9DFB /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AD26BA17242262E8001B9DFB /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD26B9F824224891001B9DFB /* UserDefaultsObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserDefaultsObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD26B9FB24224891001B9DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD26B9FD24224891001B9DFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD26B9FF24224891001B9DFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD26B9FF24224891001B9DFB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		AD26BA0224224891001B9DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD26BA0424224894001B9DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD26BA0724224894001B9DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD26BA0924224894001B9DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD26BA0F24224DEE001B9DFB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AD26BA1124224DFE001B9DFB /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		AD26BA1324224E09001B9DFB /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		AD26BA152422506D001B9DFB /* UserDefaultsRepositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsRepositories.swift; sourceTree = "<group>"; };
+		AD26BA17242262E8001B9DFB /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				AD26B9FB24224891001B9DFB /* AppDelegate.swift */,
-				AD26B9FD24224891001B9DFB /* SceneDelegate.swift */,
-				AD26B9FF24224891001B9DFB /* ViewController.swift */,
 				AD26BA0124224891001B9DFB /* Main.storyboard */,
+				AD26BA152422506D001B9DFB /* UserDefaultsRepositories.swift */,
+				AD26B9FF24224891001B9DFB /* FirstViewController.swift */,
+				AD26BA0F24224DEE001B9DFB /* SecondViewController.swift */,
+				AD26BA1124224DFE001B9DFB /* ThirdViewController.swift */,
+				AD26BA1324224E09001B9DFB /* ModalViewController.swift */,
 				AD26BA0424224894001B9DFB /* Assets.xcassets */,
 				AD26BA0624224894001B9DFB /* LaunchScreen.storyboard */,
 				AD26BA0924224894001B9DFB /* Info.plist */,
+				AD26BA17242262E8001B9DFB /* Settings.bundle */,
 			);
 			path = UserDefaultsObserver;
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD26BA18242262E8001B9DFB /* Settings.bundle in Resources */,
 				AD26BA0824224894001B9DFB /* LaunchScreen.storyboard in Resources */,
 				AD26BA0524224894001B9DFB /* Assets.xcassets in Resources */,
 				AD26BA0324224891001B9DFB /* Main.storyboard in Resources */,
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD26BA0024224891001B9DFB /* ViewController.swift in Sources */,
+				AD26BA1024224DEE001B9DFB /* SecondViewController.swift in Sources */,
+				AD26BA0024224891001B9DFB /* FirstViewController.swift in Sources */,
+				AD26BA162422506D001B9DFB /* UserDefaultsRepositories.swift in Sources */,
+				AD26BA1224224DFE001B9DFB /* ThirdViewController.swift in Sources */,
 				AD26B9FC24224891001B9DFB /* AppDelegate.swift in Sources */,
-				AD26B9FE24224891001B9DFB /* SceneDelegate.swift in Sources */,
+				AD26BA1424224E09001B9DFB /* ModalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
